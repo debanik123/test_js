@@ -1,0 +1,10 @@
+version: '3'
+services:
+  strapi:
+    image: docker_ts_js:v1
+    command: npm run start
+    # volumes:
+    #   - ./app:/srv/app
+    ports:
+      - '1337:1337'
+ 
